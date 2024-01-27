@@ -1,0 +1,83 @@
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(87,142,161,1) 0%, rgba(30,25,86,1) 13%, rgba(64,59,136,1) 22%, rgba(36,34,59,1) 23%, rgba(37,36,53,1) 25%, rgba(38,37,50,1) 26%, rgba(43,43,52,1) 30%, rgba(26,24,45,1) 31%, rgba(50,50,55,1) 35%, rgba(48,58,64,1) 38%, rgba(46,63,70,1) 40%, rgba(44,71,79,1) 43%, rgba(42,78,88,1) 46%, rgba(35,100,116,1) 55%, rgba(20,169,201,1) 66%, rgba(24,135,159,1) 74%, rgba(17,157,187,1) 78%, rgba(15,30,33,1) 85%, rgba(94,168,189,1) 100%, rgba(205,208,186,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+.SignUp {
+
+    margin:0 auto;
+    padding: 25px;
+    background-color: #dedbdb;
+    border-radius: 5px;
+    max-width: 450px;
+    border: 1px solid black;
+    max-height: 675px;
+   
+
+}
+.SignUp label {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.SignUp input {
+
+    border: 1px solid #838181;
+    padding: 10px;
+    width: 90%;
+    background-color: aliceblue;
+    
+
+
+}
+
+.SignUp fieldset {
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.SignUp h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.SignUp legend {
+    padding: 7px;
+    border-radius: 8px;
+    color: rgb(56, 8, 177);
+    font-weight: bold;
+    background-color: aqua;
+    font-size: 24px;
+    
+}
+
+.SignUp button {
+    cursor: pointer;
+    border: 1px solid black;
+    padding:10px;
+    color: black;
+    border-radius: 7px;
+    margin-top: 7px;
+    background-color: greenyellow;
+    width: 390px;
+
+}
+
+.SignUp button:hover {
+    color:green;
+    transition: all 0.3s ease;
+    border: 2px solid black;
+    
+}
+
+.SignUp select {
+
+    padding: 8px;
+    width: 390px;
+    background-color: aliceblue;
+
+}
